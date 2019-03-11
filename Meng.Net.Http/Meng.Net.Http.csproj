@@ -1,11 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>zhouMeng</Authors>
+    <Description>extend HttpContent</Description>
+    <PackageProjectUrl>https://github.com/missxueo/extensions-http</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/missxueo/extensions-http</RepositoryUrl>
+    <PackageLicenseFile>License</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="newtonsoft.json" Version="[9.0.1,)" />
+    <None Include="License" Pack="true" Visible="false" PackagePath="" />
   </ItemGroup>
-
 </Project>
